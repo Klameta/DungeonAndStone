@@ -1,0 +1,30 @@
+Spider:1 1 1
+Wolf:2 2 1
+Zombie:5 3 2
+Skeleton:3 5 2
+Ghoul:7 6 4
+next
+Black Bear: 5 5 3
+Myconid Adult: 7 3 3
+Giant Rat: 3 2 2
+Goblin: 5 3 3
+Kobold: 7 4 5
+next
+Dire Wolf: 9 5 7
+Wraith: 10 6 9
+Ogre: 12 7 11
+Troll: 14 8 13
+Minotaur: 16 9 15
+next
+Chimera: 18 10 18
+Wyvern: 20 11 21
+Basilisk: 22 12 24
+Lich: 24 13 27
+Hydra: 26 14 30
+next
+Dragon: 28 16 34
+Titan: 30 18 38
+Behemoth: 32 20 42
+Demon Lord: 34 22 46
+Ancient One: 36 24 50
+next
