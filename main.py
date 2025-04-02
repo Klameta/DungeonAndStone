@@ -6,6 +6,12 @@ import random
 from Classes.fighter import *
 
 def monsterSpawner(monstersList):
+    """
+       This is the method for seeding the monsters. There is one main list that consists of 5 other ones. Each of them contains the monsters for the given day. It reads the file Monsters
+
+       :param monstersList:
+       :return:
+    """
     file_path = os.path.join(os.path.dirname(__file__), "Seeders", "Monsters")
     monsterListPerDay= [];
     with open(file_path) as file:
@@ -26,6 +32,11 @@ def monsterSpawner(monstersList):
     return monstersList
 
 def weaponSpawner(weaponList):
+    """
+        This is the method for seeding the weapons. There is one list that contains all of them. It reads the file Weapons
+        :param weaponList:
+        :return:
+    """
     file_path = os.path.join(os.path.dirname(__file__), "Seeders", "Weapons")
     with open(file_path) as file:
         for line in file:
